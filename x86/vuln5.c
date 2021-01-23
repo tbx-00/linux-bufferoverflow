@@ -8,7 +8,7 @@ int main(void)
 
 	write(1, "Hello World\n", 0xd);
 	write(1, "Give me a shell!\n", 0x11);
-	read(0, input, 300);
+	read(0, input, 900);
 	return 0;
 }
 

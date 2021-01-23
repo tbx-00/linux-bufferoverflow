@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-const int SIZE = 500;
+const int SIZE = 700;
 
 void vuln()
 {

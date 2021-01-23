@@ -4,7 +4,7 @@
 
 void vuln()
 {
-	char name[500];
+	char name[600];
 	gets(name);
 }
 
