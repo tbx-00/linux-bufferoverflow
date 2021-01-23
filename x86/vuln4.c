@@ -4,7 +4,7 @@
 
 void echo()
 {
-    char buffer[20];
+    char buffer[500];
 
     printf("Enter some text:\n");
     scanf("%s", buffer);

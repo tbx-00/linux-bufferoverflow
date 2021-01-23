@@ -2,14 +2,18 @@
 #include <string.h>
 
 
+void vuln()
+{
+	char name[500];
+	gets(name);
+}
+
 int main(void)
 {
 
-	char name[32];
 
 	puts("Enter your name: ");
-	gets(name);
-
+	vuln();
 	return 0;
 }
 

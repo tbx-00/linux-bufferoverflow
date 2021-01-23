@@ -3,7 +3,7 @@
 
 void vuln_func(char *input)
 {
-	char buffer[256];
+	char buffer[500];
 	strcpy(buffer, input);
 
 }
